@@ -1,0 +1,145 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.raty.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.raty.js"></script>
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="index.html" class="navbar-brand">Tunr</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li><a href="all_podcasts.html">All podcasts</a></li>
+        <li><a href="best_episodes.html">Best episodes</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Sign out</a></li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="container best-episodes-content push-down-2">
+  <div class="row push-down-2">
+    <h2>The best episodes</h2>
+    <div class="col-md-8 col-md-offset-2 push-down-2">
+      <div class="row">
+        <div class="col-md-2 num">1.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">2.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">3.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">4.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">5.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">6.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 num">7.</div>
+        <div class="col-md-3">
+          <img src="images/serial_logo.png" alt="serial">
+        </div>
+        <div class="col-md-7">
+          <strong>222 - Some title</strong><br>
+          <div class="rating-container-best"><div></div></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="pagination-container">
+      <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer></footer>
+
+<script>
+  $('.rating-container-orange div, .rating-container-best div').raty({
+    score: 4,
+    path: 'images',
+    starType: 'i'
+  });
+</script>
+
+</body>
+</html>

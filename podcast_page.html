@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.raty.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.raty.js"></script>
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="index.html" class="navbar-brand">Tunr</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li><a href="all_podcasts.html">All podcasts</a></li>
+        <li><a href="best_episodes.html">Best episodes</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Sign out</a></li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="podcast-page-heading push-down-3">
+  <div class="container">
+    <a href="podcast_page.html"><img src="images/tal_logo.png" alt="tal"></a>
+  </div>
+</div>
+<div class="container podcast-page-content">
+  <div class="row push-down-2">
+    <div class="rating-container-orange">
+      <div></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 push-down-1 desc">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi vero ab inventore ad ut praesentium a. Dolorum hic adipisci iste perferendis accusantium quidem magnam voluptatibus repellat minima? Eveniet voluptates, dolor! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod animi velit autem quas nemo dolorum nihil fugiat nam, sapiente consequuntur sit maxime a consequatur optio eaque libero ea! Non, consequatur.</p>
+    </div>
+  </div>
+
+  <div class="row push-down-2">
+    <hr>
+    <div class="col-md-8 col-md-offset-2 push-down-2  ">
+      <ol>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+        <li>
+          <strong>222 - Some title <div class="rating-container-podcast"><div></div></div></strong>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad minus nam, ratione eos iure dolores soluta neces...</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="pagination-container">
+      <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">></a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<footer></footer>
+
+<script>
+  $('.rating-container-orange div, .rating-container-podcast div').raty({
+    score: 4,
+    path: 'images',
+    starType: 'i'
+  });
+</script>
+
+</body>
+</html>
